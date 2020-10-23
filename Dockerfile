@@ -13,7 +13,7 @@ MAINTAINER eluminare@eluhome.de
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-  apt-utils xz-utils sudo locales default-jdk
+  apt-utils xz-utils sudo locales openjdk-8-jre wget
 
 ENV LANGUAGE en_US.UTF-8
 ENV LANG en_US.UTF-8
