@@ -4,7 +4,7 @@
 #   -p 4040:4040 \
 #   -v /mnt/subsonic:/opt/app/state \
 #   -v /mnt/music:/mnt/music
-#   danisla/subsonic 1000
+#   eluminare/subsonic 1000
 
 FROM openjdk:8-jre
 
