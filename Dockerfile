@@ -13,7 +13,8 @@ MAINTAINER eluminare@eluhome.de
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-  apt-utils xz-utils sudo locales openjdk-8-jre wget
+  apt-utils xz-utils sudo locales wget
+RUN apt-get install -t jessie-backports openjdk-8-jre
 
 ENV LANGUAGE en_US.UTF-8
 ENV LANG en_US.UTF-8
