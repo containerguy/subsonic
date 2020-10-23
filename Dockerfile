@@ -6,14 +6,14 @@
 #   -v /mnt/music:/mnt/music
 #   eluminare/subsonic 1000
 
-FROM openjdk:8-jre
+FROM debian:latest
 
 MAINTAINER eluminare@eluhome.de
 
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-  apt-utils xz-utils sudo locales
+  apt-utils xz-utils sudo locales openjdk-8-jre
 
 ENV LANGUAGE en_US.UTF-8
 ENV LANG en_US.UTF-8
