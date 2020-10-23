@@ -6,9 +6,9 @@
 #   -v /mnt/music:/mnt/music
 #   danisla/subsonic 1000
 
-FROM java:8-jre
+FROM openjdk:8-jre
 
-MAINTAINER dan.isla@gmail.com
+MAINTAINER eluminare@eluhome.de
 
 ENV DEBIAN_FRONTEND noninteractive
 
