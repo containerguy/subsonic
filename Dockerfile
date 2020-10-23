@@ -6,7 +6,7 @@
 #   -v /mnt/music:/mnt/music
 #   eluminare/subsonic 1000
 
-FROM jessie
+FROM debian:jessie
 
 MAINTAINER eluminare@eluhome.de
 
