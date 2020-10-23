@@ -37,7 +37,7 @@ RUN wget http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.ta
 
 WORKDIR /opt/app
 ENV SUBSONIC_CONTEXT_PATH /
-ENV SUBSONIC_MAX_MEMORY 512
+ENV SUBSONIC_MAX_MEMORY 768
 
 RUN mkdir -p /opt/app
 
